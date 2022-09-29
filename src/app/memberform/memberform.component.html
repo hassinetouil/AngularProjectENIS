@@ -1,0 +1,25 @@
+<div class="grid place-items-center p-10">
+  <mat-card>
+    <form [formGroup]="form" (ngSubmit)="ONSUB()" class="flex flex-col gap-2 w-full p-3">
+      <mat-form-field appearance="legacy">
+        <input matInput placeholder="cin" formControlName="cin" />
+      </mat-form-field>
+      <br>
+      <mat-form-field appearance="legacy">
+        <input matInput placeholder="name" formControlName="name" />
+      </mat-form-field>
+      <br>
+      <mat-form-field appearance="legacy">
+        <input matInput placeholder="type" formControlName="type" />
+      </mat-form-field>
+      <br>
+      <mat-form-field appearance="legacy">
+        <input matInput placeholder="cv" formControlName="cv" />
+      </mat-form-field>
+      <br>
+      <div class="ml-auto">
+        <button type="submit" mat-raised-button color="primary">Submit</button>
+      </div>
+    </form>
+  </mat-card>
+</div>

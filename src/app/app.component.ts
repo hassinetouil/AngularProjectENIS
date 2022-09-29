@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'firstapp';
+  name = 'hassine'
+  agenda = [{
+    date: "17/12", message:"bloc1",},{
+      date: "18/12", message:"bloc2",},]
 }

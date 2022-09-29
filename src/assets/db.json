@@ -1,0 +1,28 @@
+{
+  "members": [
+    {
+      "id": "123456",
+      "cin": "081547",
+      "name": "ahmed",
+      "createdDate": "20/09/2022",
+      "cv": "lien",
+      "type": "teacher"
+    },
+    {
+      "id": "321654",
+      "cin": "052864",
+      "name": "mohamed",
+      "createdDate": "20/09/2022",
+      "cv": "lien",
+      "type": "student"
+    },
+    {
+      "id": "654321",
+      "cin": "042589",
+      "name": "mehdi",
+      "createdDate": "20/09/2022",
+      "cv": "lien",
+      "type": "teacher"
+    }
+  ]
+}
