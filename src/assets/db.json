@@ -24,5 +24,25 @@
       "cv": "lien",
       "type": "teacher"
     }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "title": "AI in embeded sys",
+      "year":"1999",
+      "author":""
+    },
+    {
+      "id": "2",
+      "title": "IOT and Cloud",
+      "year":"2010",
+      "author":""
+    },
+    {
+      "id": "3",
+      "title": "Oracle the lengend of SQL",
+      "year":"2022",
+      "author":""
+    }
   ]
 }

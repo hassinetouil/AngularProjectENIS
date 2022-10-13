@@ -10,17 +10,33 @@ import { EtudiantComponent } from './members/etudiant/etudiant.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MemberformComponent } from './memberform/memberform.component';
 import { FlexLayoutModule } from '@angular/flex-layout/';
-import {  MatFormFieldModule } from '@angular/material/form-field';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
+import { MatDialogModule } from '@angular/material/dialog';
 import { MatCardModule } from '@angular/material/card';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatListModule} from '@angular/material/list';
+import {MatMenuModule} from '@angular/material/menu';
+import { ConfirmeDialogComponent } from './confirme-dialog/confirme-dialog.component';
+
+import { LayoutComponent } from './layout/layout.component';
+import { ArticlesComponent } from './article/article.component';
+import { ArticleAffectComponent } from './article-affect/article-affect.component';
+import { MatOptionModule } from '@angular/material/core';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [
     AppComponent,
     MembersComponent,
     EtudiantComponent,
-    MemberformComponent
+    MemberformComponent,
+    ConfirmeDialogComponent,
+    LayoutComponent,
+    ArticlesComponent,
+    ArticleAffectComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +51,13 @@ import { MatCardModule } from '@angular/material/card';
     ReactiveFormsModule,
     MatInputModule,
     MatCardModule,
-
+    MatDialogModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatOptionModule,
+    MatSelectModule,
+MatListModule,
+MatMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

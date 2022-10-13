@@ -46,7 +46,7 @@ export class MemberformComponent implements OnInit {
     });
   }
   ONSUB() {
-    const objectMember = this.form.value;
+    const objectMember = {...this.memberGlobal,...this.form.value};
     console.log(objectMember);
     //appeller la fonction du service saveMember pour
     // ajouter la ligne dans le tab
